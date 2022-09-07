@@ -136,7 +136,7 @@ li {
 .nav-tabs .nav-link {
   border: unset !important;
   margin-bottom: -10px !important;
-  width: 40vw;
+  width: 100%;
 }
 .nav-tabs .nav-link.active {
   color: #0baedd !important;
@@ -190,17 +190,17 @@ li {
   position: absolute;
   right: 0;
 }
-#open {
+.open {
   width: 45% !important;
 }
-#Close {
+.Close {
   width: 0 !important;
 }
 
-#openNav {
+.openNav {
   width: 20% !important;
 }
-#CloseNav {
+.CloseNav {
   width: 0 !important;
   padding: 0 !important;
 }
