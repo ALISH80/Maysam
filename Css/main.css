@@ -32,10 +32,7 @@ li {
 }
 .line {
   width: 83% !important;
-  margin: 0rem 4rem 0 8rem;
-  color: black;
-  border-top: 0.5px solid gray;
-  opacity: 0.3;
+  margin: 7px auto 0 auto;
 }
 .Left {
   transition: width 0.4s;
