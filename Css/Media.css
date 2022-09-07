@@ -1,0 +1,115 @@
+@media only screen and (min-width: 320px) and (max-width: 992px) {
+  .Left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background-color: #2b2d42;
+    z-index: 100;
+    min-height: 100vh;
+    width: 0 !important;
+  }
+  .Text-box {
+    padding: 1rem 2rem;
+  }
+  .p-part {
+    padding: 0 4rem;
+  }
+  .h4-name {
+    color: snow;
+  }
+  .list-panel a {
+    color: snow;
+  }
+  .nav-tabs .nav-link.active {
+    background-color: transparent !important;
+  }
+  .left-part {
+    margin: 0;
+    box-shadow: none;
+  }
+  .hamburger {
+    visibility: visible;
+  }
+  .big-box {
+    max-width: 80vw !important;
+  }
+  .right-box {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .Top-nav {
+    display: flex;
+    flex-direction: column;
+    float: left;
+  }
+  .header-list {
+    padding: 5rem 0 0.7rem 1rem;
+  }
+  .header-list li {
+    color: snow;
+    padding-bottom: 1.4rem;
+    width: 20vw;
+  }
+  .Heading {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    background-color: #2b2d42;
+    height: 100vh;
+    float: right;
+    width: 0 !important;
+    /* padding: 0 !important; */
+  }
+  .logo {
+    margin: 0 auto;
+    float: unset;
+  }
+  .right-hamburger {
+    visibility: visible;
+  }
+  .fa-arrow-right {
+    visibility: visible;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .personal-part {
+    padding-top: 0.5rem !important;
+  }
+  .personal-box {
+    padding: 0 !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .hamburger {
+    visibility: hidden;
+  }
+  .fa-arrow-right {
+    visibility: hidden;
+  }
+  .Left {
+    width: 25% !important;
+  }
+  .right-hamburger {
+    visibility: hidden;
+  }
+  .header-list li {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .hamburger {
+    visibility: hidden;
+  }
+  .fa-arrow-right {
+    visibility: hidden;
+  }
+  .Left {
+    width: 25% !important;
+  }
+  .right-hamburger {
+    visibility: hidden;
+  }
+}
