@@ -1,4 +1,14 @@
 @media only screen and (min-width: 320px) and (max-width: 992px) {
+  .logo-footer p {
+    margin: 1rem 6rem 1rem 0;
+    font-size: 15px;
+  }
+
+  .students-info {
+    font-size: 11px;
+    padding: 0 0.5rem;
+  }
+
   .Left {
     position: fixed;
     top: 0;
@@ -8,56 +18,84 @@
     background-color: #2b2d42;
     z-index: 100;
     min-height: 100vh;
-    width: 0 !important;
+    width: 0;
   }
+
+  .personal-box {
+    height: 35rem;
+  }
+
+  .Top-nav a {
+    color: snow;
+  }
+
+  .nav-tabs .nav-link {
+    width: 50vw;
+  }
+
   .open {
-    width: 45% !important;
+    width: 45%;
   }
+
   .Close {
     width: 0 !important;
   }
+
   .Text-box {
     padding: 1rem 2rem;
   }
+
   .p-part {
-    padding: 0 4rem;
+    padding: 0 3rem;
   }
+
   .h4-name {
     color: snow;
+    width: 45vw;
   }
+
   .list-panel a {
     color: snow;
   }
+
   .nav-tabs .nav-link.active {
     background-color: transparent !important;
   }
+
   .left-part {
     margin: 0;
     box-shadow: none;
   }
+
   .hamburger {
     visibility: visible;
   }
+
   .big-box {
     max-width: 80vw !important;
   }
+
   .right-box {
     margin-left: 2rem;
     margin-right: 2rem;
   }
+
   .Top-nav {
     display: flex;
     flex-direction: column;
     float: left;
   }
+
   .header-list {
     padding: 5rem 0 0.7rem 1rem;
   }
+
   .header-list li {
     color: snow;
     padding-bottom: 1.4rem;
     width: 20vw;
   }
+
   .Heading {
     position: fixed;
     z-index: 100;
@@ -66,63 +104,453 @@
     background-color: #2b2d42;
     height: 100vh;
     float: right;
-    width: 0 !important;
-     padding: 0 !important;
+    width: 0;
+    padding: 0 !important;
   }
+
   .openNav {
-    width: 20% !important;
+    width: 20%;
   }
+
   .CloseNav {
     width: 0 !important;
     padding: 0 !important;
   }
+
   .logo {
     margin: 0 auto;
     float: unset;
   }
+
   .right-hamburger {
     visibility: visible;
   }
-  .fa-arrow-right {
-    visibility: visible;
-  }
+
 }
-@media only screen and (max-width: 768px) {
-  .personal-part {
-    padding-top: 0.5rem !important;
-  }
-  .personal-box {
-    padding: 0 !important;
-  }
-}
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .logo-footer p {
+    margin: 1rem 3rem 1rem 0;
+  }
+
   .hamburger {
     visibility: hidden;
   }
+
   .fa-arrow-right {
     visibility: hidden;
   }
+
   .Left {
     width: 25% !important;
   }
+
   .right-hamburger {
     visibility: hidden;
   }
+
   .header-list li {
     font-size: 14px;
   }
+
+  .Top-nav {
+    display: inline-block;
+  }
+
+  .students-info {
+    font-size: 13px;
+    padding: 0 0.5rem;
+  }
 }
-@media only screen and (min-width: 1200px) {
+
+@media only screen and (min-width: 1200px) and (max-width:1400px) {
   .hamburger {
     visibility: hidden;
   }
+
   .fa-arrow-right {
     visibility: hidden;
   }
+
   .Left {
     width: 25% !important;
   }
+
   .right-hamburger {
     visibility: hidden;
+  }
+
+  .students-info {
+    font-size: 13px;
+    padding: 0 1rem;
+  }
+
+  .Top-nav {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .hamburger {
+    visibility: hidden;
+  }
+
+  .fa-arrow-right {
+    visibility: hidden;
+  }
+
+  .Left {
+    width: 25% !important;
+  }
+
+  .right-hamburger {
+    visibility: hidden;
+  }
+
+  .Top-nav {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    max-width: 90%;
+  }
+
+  .contact-title {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+
+  .fa-telegram, .fa-instagram, .fa-whatsapp {
+    font-size: 1.5rem;
+  }
+
+  .Telegram, .Instagram {
+    padding-right: 0.5rem;
+  }
+
+  .InTouch {
+    margin: 1rem 0 0.5rem 3rem;
+  }
+
+  .social {
+    padding: 1rem 0.5rem 0 0.5rem;
+  }
+
+  .contact-box hr {
+    height: 2.5rem;
+  }
+
+  .Left-Input, .Right-Input {
+    padding: 1rem 3rem 1rem 3rem;
+  }
+
+  .TextArea {
+    padding: 1rem 3rem;
+  }
+
+  .TextArea textarea {
+    resize: none;
+    height: 8rem;
+  }
+
+  .Btn-holder {
+    text-align: center;
+  }
+
+  .FootLogo {
+    margin: 0 auto;
+  }
+
+  .logo-footer p {
+    margin: 1rem 2rem;
+  }
+
+  .logo-footer {
+    text-align: center;
+  }
+
+  .textNews {
+    font-size: 14px;
+  }
+
+  .ReadMore {
+    margin: 1rem auto;
+  }
+
+  .personal-part {
+    padding-top: 0 !important;
+  }
+
+  .personal-box {
+    padding: 0 !important;
+    height: 35rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .find-list span {
+    font-size: 9px;
+  }
+
+  .find-list svg {
+    font-size: 14px;
+  }
+
+  .FastLinks hr {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+
+  .foot-list {
+    font-size: 10px;
+    line-height: 1.5rem;
+  }
+
+  .FootList li::before {
+    width: 6px;
+    height: 6px;
+  }
+
+  .boxes {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-left: 1.5rem;
+  }
+
+  .right-box h2 {
+    font-size: 22px;
+  }
+
+  .p-part {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .contact-title {
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+
+  .social {
+    padding: 1rem 0 0 0;
+  }
+
+  .Telegram, .Instagram {
+    padding-right: 0.3rem;
+  }
+
+  .fa-telegram, .fa-instagram, .fa-whatsapp {
+    font-size: 1.5rem;
+  }
+
+  .contact-box {
+    margin: 2rem 1rem 1rem 1rem;
+    box-shadow: rgb(165 165 171 / 43%) 0px 7px 29px 0px;
+  }
+
+  .card {
+    height: 135px;
+    margin: 0 1rem 2.5rem 0;
+  }
+
+  .Home-box {
+    width: 80vw;
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .nav-tabs .nav-link {
+    font-size: 13.5px;
+  }
+
+  .Left-Input, .Right-Input, .TextArea {
+    padding: 1rem;
+  }
+
+  .TextArea textarea {
+    height: 6rem;
+  }
+
+  .Send-Btn {
+    background-color: #0baedd;
+    margin: 1rem auto 2rem auto;
+    color: snow;
+    padding: 0.3rem 2rem;
+  }
+
+  .ReadMore-Btn {
+    margin: 1rem auto 2rem auto;
+  }
+
+  .Resize {
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+  }
+
+  .InTouch {
+    margin: 1rem 0 0.5rem 0.5rem;
+  }
+
+  .InTouch span {
+    font-size: 11px;
+  }
+
+  .social {
+    padding: 0 0 0.5rem 0;
+  }
+
+  .fa-telegram, .fa-instagram, .fa-whatsapp {
+    font-size: 1.5rem;
+  }
+
+  .contact-box {
+    margin: 2rem 1rem 1rem 1rem;
+    box-shadow: rgb(165 165 171 / 43%) 0px 7px 29px 0px;
+  }
+
+  .contact-title {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+
+  .image-holder {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  .students-info {
+    font-size: 8px;
+    padding: 0rem;
+    margin: 0.3rem 0rem;
+  }
+
+  .Text-box {
+    padding: 1rem;
+  }
+
+  .open {
+    width: 55%;
+  }
+
+  .h4-name {
+    color: snow;
+    width: 55vw;
+  }
+
+  .openNav {
+    width: 35%;
+  }
+
+  .header-list li {
+    font-size: 15px;
+  }
+
+  .right-box h2 {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 2rem 0.7rem 0 0.7rem;
+  }
+
+  .boxes p {
+    font-size: 14px;
+  }
+
+  .right-box {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .p-part P {
+    font-size: 14px;
+  }
+
+  .Text-box p {
+    font-size: 12px;
+  }
+
+  .fa-square-check {
+    font-size: 12px;
+  }
+
+  .personal-box {
+    height: 25rem;
+    margin-top: 1.5rem;
+  }
+
+  .right-box {
+    margin: 2rem 1.5rem;
+  }
+
+  .fa-house, .fa-graduation-cap, .fa-print, .fa-school, .fa-phone, .fa-address-card {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .logo-footer p {
+    margin: 1rem 3rem 1rem 0;
+  }
+
+  .card {
+    height: 135px;
+    margin: 0 1rem 2.5rem 0;
+  }
+
+  .Home-box {
+    width: 80vw;
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .ReadMoreBox {
+    padding: 0 2rem;
+  }
+
+  .contact-box {
+    margin: 2rem 1rem 1rem 1rem;
+    box-shadow: rgb(165 165 171 / 43%) 0px 7px 29px 0px;
+  }
+
+  .social {
+    padding: 1rem 0.5rem 0 0.5rem;
+  }
+
+  .Left-Input {
+    padding: 1rem 2rem 1rem 3rem;
+  }
+
+  .Right-Input {
+    padding: 1rem 3rem 1rem 2rem;
+  }
+
+  .TextArea {
+    padding: 1rem 3rem;
+  }
+
+  .Send-Btn {
+    background-color: #0baedd;
+    margin: 1rem 3rem 2.5rem 3rem;
+    color: snow;
+    padding: 0.3rem 2rem;
+  }
+
+  .ReadMore-Btn {
+    background-color: #0baedd;
+    margin: 1rem auto 2rem auto;
+    color: snow;
+    padding: 0.3rem 2rem;
   }
 }
