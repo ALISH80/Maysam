@@ -662,7 +662,7 @@ label {
   transform: translate(-50%, -50%);
 }
 
-.fa-house, .fa-graduation-cap, .fa-print, .fa-school, .fa-phone, .fa-address-card {
+#fa-house, #fa-graduation-cap, #fa-print, #fa-school, #fa-phone, #fa-address-card {
   font-size: 2rem;
   color: #0baedd;
   margin-right: 0.7rem;
@@ -687,8 +687,9 @@ label {
 
 .Teaching-Box span {
   position: absolute;
-  top: 18px;
+  top: 15px;
   font-size: 18px;
+  margin-left: 1rem;
 }
 
 .TeachingIcon {
