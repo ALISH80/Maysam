@@ -721,3 +721,12 @@ label {
 #TeachingText {
   padding-bottom: 2.5rem;
 }
+
+.Top-nav a:target {
+  color: #0baedd;
+}
+
+.Top-nav a[tabindex]:focus {
+  color: #0baedd;
+  outline: none;
+}
